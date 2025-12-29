@@ -1,5 +1,5 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target" : { "namespace": "android_app", "package_name": "com.joelralte.kolasibaw",
-               "sha256_cert_fingerprints": ["4d:98:26:c7:2b:6e:27:32:37:ac:5e:06:99:50:94:42:b4:24:09:bf:a1:d7:01:b5:5c:68:79:df:29:73:13:8f"] }
+               "sha256_cert_fingerprints": ["4D:98:26:C7:2B:6E:27:32:37:AC:5E:06:99:50:94:42:B4:24:09:BF:A1:D7:01:B5:5C:68:79:DF:29:73:13:8F"] }
 }]
