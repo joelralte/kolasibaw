@@ -1,136 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>kolasib Aw | News Outlet</title>
-  <meta name="description" content="kolasib Aw is an independent news outlet delivering latest local and global news, analysis, and updates." />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #f4f4f4;
-      color: #222;
-    }
-    header {
-      background-color: #111;
-      color: #fff;
-      padding: 1rem 2rem;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      text-transform: capitalize;
-    }
-    nav {
-      margin-top: 0.5rem;
-    }
-    nav a {
-      color: #fff;
-      margin-right: 1rem;
-      text-decoration: none;
-      font-size: 0.95rem;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      max-width: 1100px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      display: grid;
-      grid-template-columns: 3fr 1fr;
-      gap: 2rem;
-    }
-    .main-news article {
-      background: #fff;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      border-radius: 4px;
-    }
-    .main-news h2 {
-      margin-top: 0;
-    }
-    .main-news p {
-      line-height: 1.6;
-    }
-    .sidebar {
-      background: #fff;
-      padding: 1.5rem;
-      border-radius: 4px;
-    }
-    .sidebar h3 {
-      margin-top: 0;
-    }
-    footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-      font-size: 0.9rem;
-    }
-    @media (max-width: 768px) {
-      .container {
-        grid-template-columns: 1fr;
-      }
-    }
-      .breaking-news {
-      background-color: #c00;
-      color: #fff;
-      padding: 0.7rem 1rem;
-      text-align: center;
-      font-weight: bold;
-      font-size: 0.95rem;
-    }
-    .breaking-news strong {
-      text-transform: uppercase;
-    }
-  </style>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Kolasib AW - Latest Mizoram news, stories, and updates.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kolasib AW">
+  <meta property="og:title" content="Kolasib AW">
+  <meta property="og:description" content="Latest Mizoram news, stories, and updates from Kolasib AW.">
+  <meta property="og:url" content="https://kolasibaw.in/">
+  <meta property="og:image" content="https://kolasibaw.in/icons/Icon-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kolasib AW">
+  <meta name="twitter:description" content="Latest Mizoram news, stories, and updates from Kolasib AW.">
+  <meta name="twitter:image" content="https://kolasibaw.in/icons/Icon-512.png">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="jozo">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Kolasib AW</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <div class="breaking-news">
-    <strong>Breaking News:</strong> This is a breaking news alert. Update this text with the latest urgent story.
-  </div>
-  <header>
-    <h1>kolasib Aw</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Local</a>
-      <a href="#">World</a>
-      <a href="#">Politics</a>
-      <a href="#">Business</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-
-  <main class="container">
-    <section class="main-news">
-      <article>
-        <h2>Top Story Headline</h2>
-        <p><strong>Breaking News:</strong> This is where your lead story summary will appear. Replace this text with the latest and most important news from your newsroom.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-      </article>
-
-      <article>
-        <h2>Another Major Update</h2>
-        <p>This section can be used for secondary news stories, investigations, or feature articles.</p>
-      </article>
-    </section>
-
-    <aside class="sidebar">
-      <h3>Latest Updates</h3>
-      <ul>
-        <li>Update 1: Short news headline</li>
-        <li>Update 2: Short news headline</li>
-        <li>Update 3: Short news headline</li>
-        <li>Update 4: Short news headline</li>
-      </ul>
-    </aside>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 kolasib Aw. All rights reserved.</p>
-  </footer>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
