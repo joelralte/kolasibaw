@@ -101168,6 +101168,11 @@ if(!(s.a.a<800))return B.ags
 return B.eQ},
 $S:56}
 A.aNP.prototype={
+$2(a,b){var s=b.r.h(0,"id")
+s.toString
+return"/detail/"+s},
+$S:215}
+A.aNQ.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k=b.r.h(0,"id")
 k.toString
 s=b.w
@@ -101181,15 +101186,10 @@ if(typeof r=="string"&&typeof q=="string"&&typeof p=="string"&&o instanceof A.jN
 else l=k
 return A.aoa(p,n,o,l,k,q,r)}}return new A.CN(k,null)},
 $S:56}
-A.aNQ.prototype={
-$2(a,b){var s=b.r.h(0,"id")
-s.toString
-return"/details/"+s},
-$S:215}
 A.aNR.prototype={
 $2(a,b){var s=b.r.h(0,"id")
 s.toString
-return"/details/"+s},
+return"/detail/"+s},
 $S:215}
 A.aNS.prototype={
 $2(a,b){var s=A.bA(a,B.de,t.w).w
@@ -101451,7 +101451,7 @@ while(true)switch(s){case 0:p=q.a
 o=p.d
 p=p.c
 s=2
-return A.z($.aSC().hC(A.aXr(o,o+"\n\n"+("https://kolasibaw.in/details/"+p))),$async$EQ)
+return A.z($.aSC().hC(A.aXr(o,o+"\n\n"+("https://kolasibaw.in/detail/"+p))),$async$EQ)
 case 2:return A.u(null,r)}})
 return A.v($async$EQ,r)},
 Be(){var s=0,r=A.w(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f
@@ -101535,7 +101535,7 @@ A.aFg.prototype={
 $0(){this.a.d=!0},
 $S:0}
 A.aFc.prototype={
-$1(a){var s,r,q,p,o,n,m,l=null,k="https://kolasibaw.in/details/",j=A.S(a).ok.w
+$1(a){var s,r,q,p,o,n,m,l=null,k="https://kolasibaw.in/detail/",j=A.S(a).ok.w
 j=A.ab("Share this post",l,l,l,l,j==null?l:j.nG(B.Z),l,l)
 s=this.a
 r=s.a
@@ -101617,7 +101617,7 @@ return A.iR(r,r,A.oV(new A.aAP(this,q,new A.aAQ(),s),p,t.a),r,r)},
 ER(a,b){var s=0,r=A.w(t.H),q=this
 var $async$ER=A.q(function(c,d){if(c===1)return A.t(d,r)
 while(true)switch(s){case 0:s=2
-return A.z($.aSC().hC(A.aXr(null,A.k(b)+"\n\nRead more at: https://kolasibaw.in/details/"+q.a.c)),$async$ER)
+return A.z($.aSC().hC(A.aXr(null,A.k(b)+"\n\nRead more at: https://kolasibaw.in/detail/"+q.a.c)),$async$ER)
 case 2:return A.u(null,r)}})
 return A.v($async$ER,r)}}
 A.aAR.prototype={
@@ -102687,7 +102687,7 @@ o=n.h(0,"date")
 n=n.h(0,"content")
 if(n==null)n=""
 n=A.ak(["title",r,"imageUrl",q,"category",p,"date",o,"content",n,"heroTag","news_"+A.k(m)],t.N,t.z)
-A.mK(this.b).km("/details/"+s,n)},
+A.mK(this.b).km("/detail/"+s,n)},
 $S:0}
 A.aKn.prototype={
 $2(a,b){return A.jr("assets/images/logo.png",B.A,null,null)},
@@ -102805,7 +102805,7 @@ o=n.h(0,"date")
 n=n.h(0,"content")
 if(n==null)n=""
 n=A.ak(["title",r,"imageUrl",q,"category",p,"date",o,"content",n,"heroTag","news_"+A.k(m)],t.N,t.z)
-A.mK(this.b).km("/details/"+s,n)},
+A.mK(this.b).km("/detail/"+s,n)},
 $S:0}
 A.aKD.prototype={
 $2(a,b){return A.jr("assets/images/logo.png",B.A,null,null)},
@@ -103160,7 +103160,7 @@ q=l.h(0,"date")
 l=l.h(0,"content")
 if(l==null)l=""
 o=A.ak(["title",k,"imageUrl",s,"category",r,"date",q,"content",l,"heroTag","carousel_"+o],t.N,t.z)
-A.mK(p.c).km("/details/"+m,o)},
+A.mK(p.c).km("/detail/"+m,o)},
 $S:0}
 A.ayV.prototype={
 $2(a,b){var s=null
@@ -114094,7 +114094,7 @@ r($,"bnb","aSM",()=>{var q="\xba",p="\u65e5",o="."
 return A.ak(["en",A.dV("st","th","nd","rd"),"es",A.dV(q,q,q,q),"fr",A.dV("er","","",""),"zh",A.dV(p,p,p,p),"de",A.dV(o,o,o,o),"it",A.dV(q,q,q,q),"ar",A.dV("","","",""),"az",A.dV("","","",""),"id",A.dV("","","",""),"ja",A.dV(p,p,p,p),"ko",A.dV("\uc77c","\uc77c","\uc77c","\uc77c"),"ru",A.dV("","","",""),"uk",A.dV("","","",""),"hi",A.dV("","","",""),"hu",A.dV(o,o,o,o),"pt",A.dV(q,q,q,q),"pl",A.dV(o,o,o,o),"tr",A.dV("","","",""),"sv",A.dV("","","",""),"nb",A.dV(o,o,o,o),"fa",A.dV("\u0645","\u0645","\u0645","\u0645"),"bn",A.dV("","","",""),"nl",A.dV(o,o,o,o),"th",A.dV("","","",""),"sk",A.dV(o,o,o,o),"cs",A.dV(o,o,o,o)],t.N,A.ag("Fc"))})
 r($,"bo2","aSX",()=>A.ak(["en",new A.QD(),"es",new A.QP(),"fr",new A.Rh(),"zh",new A.Xw(),"zh_CN",new A.Xv(),"de",new A.Q2(),"it",new A.Sd(),"ar",new A.Ot(),"ar_DZ",new A.Ou(),"az",new A.OI(),"id",new A.S_(),"ja",new A.Sg(),"ko",new A.Ss(),"ru",new A.V8(),"uk",new A.X_(),"hi",new A.RB(),"hu",new A.RK(),"pt",new A.Ub(),"pl",new A.TR(),"tr",new A.WW(),"sv",new A.Wv(),"nb",new A.Tg(),"fa",new A.QV(),"bn",new A.OZ(),"nl",new A.Ti(),"th",new A.WU(),"sk",new A.VZ(),"cs",new A.PO()],t.N,A.ag("cS")))
 s($,"bp3","aTa",()=>{var q=null,p=t.yo
-p=A.b([A.mJ(new A.aNO(),"/",q,A.b([A.mJ(new A.aNP(),"/details/:id",q,B.d1),A.mJ(q,"/detail/:id",new A.aNQ(),B.d1),A.mJ(q,"/detailpage/:id",new A.aNR(),B.d1),A.mJ(new A.aNS(),"/search",q,B.d1),A.mJ(new A.aNT(),"/bookmark",q,B.d1),A.mJ(new A.aNU(),"/account",q,B.d1),A.mJ(new A.aNV(),"/settings",q,B.d1),A.mJ(new A.aNW(),":section",new A.aNX(),B.d1)],p))],p)
+p=A.b([A.mJ(new A.aNO(),"/",q,A.b([A.mJ(q,"/details/:id",new A.aNP(),B.d1),A.mJ(new A.aNQ(),"/detail/:id",q,B.d1),A.mJ(q,"/detailpage/:id",new A.aNR(),B.d1),A.mJ(new A.aNS(),"/search",q,B.d1),A.mJ(new A.aNT(),"/bookmark",q,B.d1),A.mJ(new A.aNU(),"/account",q,B.d1),A.mJ(new A.aNV(),"/settings",q,B.d1),A.mJ(new A.aNW(),":section",new A.aNX(),B.d1)],p))],p)
 return A.b7l(!1,q,q,q,q,q,q,q,q,!1,q,!0,q,!1,new A.YF(new A.arz(p,A.biE(),5,q)))})
 r($,"bkm","aSt",()=>{var q=null
 return A.bY(q,q,!0,"background",new A.ajG(),q,new A.ajH(),q)})
